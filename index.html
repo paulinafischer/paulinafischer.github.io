@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Paulina Fischer Personal Portfolio </title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width initial-scale=1.0"/>
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="apple-touch-fullscreen" content="yes"/>
+    <meta name="description" content="Best Freecodecamp Portfolio">
+ <meta name="author" content="Paulina Fischer">
+ <meta name="keywords" content="Freecodecamp,Portfolio,Best,Example,Easy,Personal,HTML,CSS,JavaScript,JQUERY,Developer, Front, End ">
+<title>Paulina Freecodecamp Portfolio</title>
+<meta name="google-site-verification" content="f53yy0dl4Sw3fmGAlXMOZyHdrymoiPb1UKX0eC7y1hY" />
+    <link href="https://fonts.googleapis.com/css?family=Dosis:500,800&amp;subset=latin-ext" rel="stylesheet">
+<script src="https://js/parlx.js"></script>
+<script src="js/skill.bars.jquery.js"></script>
+ <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+<link href="https://fonts.googleapis.com/css?family=Audiowide|Coda|Khand|Playball|Poiret+One|Sacramento|Saira+Condensed" rel="stylesheet">
+
+
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+<style>
+  .row{
+  margin:0px !important;
+}
+h1 {
+  text-align:center; margin-top:150px; font-size:80px;
+}
+.text-container{
+  opacity:none;
+}
+.myname{
+  font-family: 'Poiret One', cursive; position:relative;
+}
+.mylastname{
+  font-family: 'Playball', cursive; cursive;
+position:relative;
+}
+#myjob{
+  position:relative; margin-top:-20px;
+}
+.jumbotron, .panel-footer{
+  background:white;
+}
+html, body {
+  font-family: 'Dosis', sans-serif;
+  background:white;
+  overflow:auto;
+}
+
+nav{
+  padding:7px;
+  margin:0px;
+}
+#brand{
+  color:whitesmoke;
+}
+.glyphicon-user, .glyphicon-briefcase, .glyphicon-envelope, .glyphicon-tasks{
+  color:#298B8B;
+}
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#op{
+  min-height:500px;
+padding-bottom:50px;
+}
+.jumbotron{
+  width:100%;
+  background-repeat:no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  }
+#sec1{
+  background-color:#D9F866;
+}
+#title2, #title4{
+background:#FFC89A;
+color:#FF8622;
+padding-bottom:35px;
+padding-top:35px;
+}
+#title3, #title1{
+padding-bottom:35px;
+padding-top:35px;
+}
+h3{
+  padding: 20px;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+carousel{
+  background-color:white;
+}
+#text-carousel{
+  font-size:25px;
+  width:100%;
+  height:400px;
+  padding-top:100px;
+  padding-bottom:130px;
+  text-align:center;
+  background-color:transparent;
+}
+.glyphicon-chevron-left,.glyphicon-chevron-right{
+  color:#CCFB21;
+}
+.Bg {
+  z-index: 1000;
+  font-size:65px;
+  background:#D9F866;
+  color:#90B700;
+  padding:0px;
+  margin:0px;
+}
+
+.parallax{
+  z-index: 10;
+  position:relative;
+  height:200px;
+  overflow: hidden;
+}
+
+.front, .parallax {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  min-height:60px;
+}
+
+.bgimg {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#shadow{
+  background-color:#1DD7D7;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0.7;
+}
+.shadow {
+  background-color:#1DD7D7;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0.9;
+}
+
+#skills-container{
+  padding:30px 30px 30px 50px;
+}
+.skillbar{
+  position:relative;
+  display:block;
+  margin-bottom:15px;
+  width:100%;
+  background:#eee;
+  height:35px;
+  border-radius:3px;
+  -moz-border-radius:3px;
+  -webkit-border-radius:3px;
+  -webkit-transition:0.4s linear;
+  -moz-transition:0.4s linear;
+  -ms-transition:0.4s linear;
+  -o-transition:0.4s linear;
+  transition:0.4s linear;
+  -webkit-transition-property:width, background-color;
+  -moz-transition-property:width, background-color;
+  -ms-transition-property:width, background-color;
+  -o-transition-property:width, background-color;
+  transition-property:width, background-color;
+}
+
+.skillbar-title{
+  position:absolute;
+  top:0;
+  left:0;
+  font-weight:bold;
+  font-size:13px;
+  color:#fff;
+  background:#6adcfa;
+  -webkit-border-top-left-radius:3px;
+  -webkit-border-bottom-left-radius:4px;
+  -moz-border-radius-topleft:3px;
+  -moz-border-radius-bottomleft:3px;
+  border-top-left-radius:3px;
+  border-bottom-left-radius:3px;
+}
+
+.skillbar-title span {
+  display:block;
+  background:rgba(0, 0, 0, 0.1);
+  padding:0 20px;
+  height:35px;
+  line-height:35px;
+  -webkit-border-top-left-radius:3px;
+  -webkit-border-bottom-left-radius:3px;
+  -moz-border-radius-topleft:3px;
+  -moz-border-radius-bottomleft:3px;
+  border-top-left-radius:3px;
+  border-bottom-left-radius:3px;
+}
+
+.skillbar-bar{
+  height:35px;
+  width:0px;
+  background:#6adcfa;
+  border-radius:3px;
+  -moz-border-radius:3px;
+  -webkit-border-radius:3px;
+}
+
+.skill-bar-percent {
+  position:absolute;
+  right:10px;
+  top:0;
+  font-size:11px;
+  height:35px;
+  line-height:35px;
+  color:#444;
+  color:rgba(0, 0, 0, 0.4);
+}
+
+.container{
+  padding:50px;
+}
+
+#gallery{
+font-size:12px;
+color:black;
+font-weight: bold;
+margin:50px 0px 50px 0px;
+}
+.caption{
+margin-bottom:30px;
+background:#E9FE9A;
+}
+.btn{
+  cursor:pointer;
+  background:#EF43D4;
+}
+
+#contact-panel-link,#explore-panel-link{
+  background-color:#97F9F9;
+  border:solid 3px;
+  margin-right:5px;
+  position:relative;
+  margin-top:50px;
+  -webkit-animation-name:farbe;
+-webkit-animation-duration:10s;
+-webkit-animation-timing-function:linear;
+-webkit-animation-delay:0s;
+-webkit-animation-iteration-count:infinite;
+-webkit-animation-direction:alternate;
+-webkit-animation-play-state:running;
+
+animation-name:farbe;
+animation-duration:10s;
+animation-timing-function:linear;
+animation-delay:0s;
+animation-iteration-count:infinite;
+animation-direction:alternate;
+animation-play-state:running;
+}
+
+@-webkit-keyframes farbe
+{
+0%   {border-color: #69F3F3; left:0px; top:0px;}
+25%  {border-color: #F66AE0; left:0px; top:0px;}
+50%  {border-color: #FFB06E; left:0px; top:0px;}
+75%  {border-color: #DFFE6D; left:0px; top:0px;}
+100% {border-color: #E9FE9A; left:0px; top:0px;}
+}
+
+@keyframes farbe
+{
+0%   {border-color: #69F3F3; left:0px; top:0px;}
+25%  {border-color: #F66AE0; left:0px; top:0px;}
+50%  {border-color: #FFB06E; left:0px; top:0px;}
+75%  {border-color: #DFFE6D; left:0px; top:0px;}
+100% {border-color: #E9FE9A; left:0px; top:0px;}
+}
+
+#github, #linkedin{
+  background:#E11EC2;
+  width:200px;
+  height:200px;
+  font-size:140px;
+  text-align:center;
+  margin:50px;
+  color:whitesmoke;
+  border:solid 5px;
+  border-radius:45px;
+  -webkit-animation-name:farbe;
+-webkit-animation-duration:10s;
+-webkit-animation-timing-function:linear;
+-webkit-animation-delay:0s;
+-webkit-animation-iteration-count:infinite;
+-webkit-animation-direction:alternate;
+-webkit-animation-play-state:running;
+
+animation-name:farbe;
+animation-duration:10s;
+animation-timing-function:linear;
+animation-delay:0s;
+animation-iteration-count:infinite;
+animation-direction:alternate;
+animation-play-state:running;
+}
+
+@-webkit-keyframes farbe
+{
+0%   {border-color: #69F3F3; left:0px; top:0px;}
+25%  {border-color: #F66AE0; left:0px; top:0px;}
+50%  {border-color: #FFB06E; left:0px; top:0px;}
+75%  {border-color: #DFFE6D; left:0px; top:0px;}
+100% {border-color: #E9FE9A; left:0px; top:0px;}
+}
+
+@keyframes farbe
+{
+0%   {border-color: #69F3F3; left:0px; top:0px;}
+25%  {border-color: #F66AE0; left:0px; top:0px;}
+50%  {border-color: #FFB06E; left:0px; top:0px;}
+75%  {border-color: #DFFE6D; left:0px; top:0px;}
+100% {border-color: #E9FE9A; left:0px; top:0px;}
+}
+</style>
+
+
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top animated slideInDown">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a id="brand" class="navbar-brand" href="#home">Paulina Fischer</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+      <li>
+        <a href="#title1" data-toggle="tooltip" data-placement="bottom" title="About">
+          <span class="glyphicon glyphicon-user"></span>
+          </a>
+          </li>
+        <li>
+          <a href="#title2" data-toggle="tooltip" data-placement="bottom" title="Skills">
+            <span class="glyphicon glyphicon-tasks">
+            </span>
+            </a>
+            </li>
+      <li>
+        <a href="#title3" data-toggle="tooltip" data-placement="bottom" title="Portfolio">
+          <span class="glyphicon glyphicon-briefcase"></a>
+          </li>
+      <li>
+        <a href="#title4" data-toggle="tooltip" data-placement="bottom" title="Contact">
+          <span class="glyphicon glyphicon-envelope"></span>
+          </a>
+          </li>
+   </ul>
+    </div>
+  </div>
+  </nav>
+   <!--end-nav-->
+<section id="op" class="parallax">
+  <div class="bgimg" style="background-image: url(https://res.cloudinary.com/dfqxzvppi/image/upload/v1509137481/bk.jpg">
+        <div id="shadow"class="shadow">
+        </div>
+      </div>
+<div id="home" class="jumbotron text-center">
+  <div class="text-container">
+      <h1 id="fittext1" class= "animated fadeIn">
+        <span class="myname">Paulina</span>&nbsp;
+        <span class="mylastname">Fischer</span>
+        </h1>
+      <br>
+      <p id="myjob">Front End Web Developer</p>
+      <br>
+      <a class="btn btn-default btn-lg"id="explore-panel-link" href="#title1" role="button">
+        <strong>EXPLORE</strong>
+        </a>
+  <a class="btn btn-default btn-lg"id="contact-panel-link" href="#title4" role="button"><strong>CONTACT</strong>
+  </a>
+    <br>
+    </div>
+      </div>
+  </section>
+<!--end-section-->
+    <section id="sec1"class="front">
+      <h3 id="title1"class="Bg">About Me</h3>
+    </section>
+<!--end-section-->
+    <section class="front">
+      <div class="row">
+        <div class="col-sm-6">
+<div id="text-carousel" class="carousel slide" data-ride="carousel">
+    <!-- Wrapper for slides -->
+    <div class="row">
+        <div class="col-xs-offset-3 col-xs-6">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <div class="carousel-content">
+                        <div>
+                            <p>Web developer psychologist and Freecodecamp student.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="carousel-content">
+                        <div>
+                            <p>I like to code and I love to create, I can build websites and web aplications for you. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="carousel-content">
+                        <div>
+                            <p>I like science and technology, so I always apply to my creations the highest technology and modern design.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="carousel-content">
+                        <div>
+                            <p>I am intrested in the software developing for mental healt and I would like to create aplications focused in the Artificial Inteligence and Mental Health.</p>
+                        </div>
+                    </div>
+                </div>
+              <div class="item">
+                    <div class="carousel-content">
+                        <div>
+                            <p>Technology is our best friend and I will like to help to develope this wonderful world.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Controls -->
+  <a class="left carousel-control" href="#text-carousel" data-slide="prev" style="background:none !important">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+ <a class="right carousel-control" href="#text-carousel" data-slide="next" style="background:none !important">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div>
+          </div>
+          <div class="col-sm-6">
+<img class="img-responsive center-block" src="http://res.cloudinary.com/dfqxzvppi/image/upload/v1509216039/paulina%20fischer%20avatar.jpg" alt="freecodecamp best portfolio paulina fischer">
+            </div>
+    </section>
+      <!--end-section-->
+
+    <section class="parallax">
+      <h3 class="Bg"></h3>
+      <div class="bgimg" style="background-image: url(http://res.cloudinary.com/dfqxzvppi/image/upload/v1509134790/img2_iqb6rx.jpg">
+        <div class="shadow"></div>
+      </div>
+    </section>
+<!--end-section-->
+ <section  class="front">
+      <h3 id="title2"class="Bg">My Skills</h3>
+    </section>
+<!--end-section-->
+
+    <section class="front">
+      <br>
+      <div id= "skills-container" class="container-fluid">
+     <div class="skillbar clearfix " data-percent="50%">
+	<div class="skillbar-title" style="background: #1DD7D7;">
+    <span>JAVASCRIPT</span>
+	</div>
+	<div class="skillbar-bar" style="background: #41E9E9;">
+	</div>
+	<div class="skill-bar-percent">50%</div>
+</div>
+      <div class="skillbar clearfix " data-percent="65%">
+	<div class="skillbar-title" style="background: #CCFB21;">
+    <span>JQUERY</span>
+	</div>
+	<div class="skillbar-bar" style="background: #D6FD47;">
+	</div>
+	<div class="skill-bar-percent">65%</div>
+</div>
+      <div class="skillbar clearfix " data-percent="60%">
+	<div class="skillbar-title" style="background: #FF9A47;">
+    <span>JSON</span>
+	</div>
+	<div class="skillbar-bar" style="background: #FFB06E;">
+	</div>
+	<div class="skill-bar-percent">60%</div>
+</div>
+      <div class="skillbar clearfix " data-percent="60%">
+	<div class="skillbar-title" style="background: #FF9A47;">
+    <span>AJAX</span>
+	</div>
+	<div class="skillbar-bar" style="background: #FFB06E;">
+	</div>
+	<div class="skill-bar-percent">60%</div>
+</div>
+
+<div class="skillbar clearfix " data-percent="85%">
+	<div class="skillbar-title" style="background: #EF43D4;">
+    <span>CSS</span>
+	</div>
+	<div class="skillbar-bar" style="background: #FB98EB;">
+	</div>
+	<div class="skill-bar-percent">85%</div>
+</div>
+
+<div class="skillbar clearfix " data-percent="85%">
+	<div class="skillbar-title" style="background: #EF43D4;">
+    <span>HTML5</span>
+	</div>
+	<div class="skillbar-bar" style="background: #FB98EB;">
+	</div>
+	<div class="skill-bar-percent">85%</div>
+</div>
+      <div class="skillbar clearfix " data-percent="90%">
+	<div class="skillbar-title" style="background: #00a8ff;">
+    <span>BOOTSTRAP</span>
+	</div>
+	<div class="skillbar-bar" style="background: #00a8ff;">
+	</div>
+	<div class="skill-bar-percent">90%</div>
+</div>
+</div>
+    </section>
+      <!--end-section-->
+    <section class="parallax">
+      <h3 class="Bg"></h3>
+      <div class="bgimg" style="background-image: url(http://res.cloudinary.com/dfqxzvppi/image/upload/v1509134745/web.jpg">
+        <div class="shadow"></div>
+      </div>
+    </section>
+    <!--end-section-->
+
+       <section id="sec1"class="front">
+      <h3 id="title3"class="Bg">My Portfolio</h3>
+    </section>
+  <!--end-section-->
+
+    <section class="front">
+      <div id="gallery" class="container-fluid">
+<div class= "row text-center">
+  <div class= "col-sm-2">
+  </div>
+  <div class= "col-sm-2">
+    <img src="http://res.cloudinary.com/dfqxzvppi/image/upload/c_scale,h_300,w_600/v1509218520/tic-tac-toe%20game.jpg" alt="tic tac toe freecodecamp paulina fischer" width="100%" height="auto" class="gallery-img img-thumbnail"/>
+        <div class="caption">
+          <p>TIC TAC TOE GAME</p>
+          <a href="https://codepen.io/paulinafischer/full/mBMqJo/"target="_blank" style="text-decoration:none" id= "go" class="btn btn-danger" role="button">Go</a>
+        </div>
+        </div>
+  <div class= "col-sm-2">
+    <img src="http://res.cloudinary.com/dfqxzvppi/image/upload/c_scale,h_300,w_600/v1509220283/Simon%20Game.jpg" alt="Simon Game Freecodecamp" width="100%" height="auto" class="gallery-img img-thumbnail"/>
+    <div class="caption">
+          <p>SIMON GAME</p>
+      <a href="https://codepen.io/paulinafischer/full/BwVaaQ/"target="_blank" style="text-decoration:none" id= "go" class="btn btn-danger" role="button">Go</a>
+        </div>
+        </div>
+  <div class= "col-sm-2"><img src="http://res.cloudinary.com/dfqxzvppi/image/upload/c_scale,h_300,w_600/v1507412985/pomodoro.jpg" alt="Freecodecamp Pomodoro Clock" width="100%" height="auto" class="gallery-img img-thumbnail" />
+    <div class="caption">
+          <p>MINIMALIST POMODORO CLOCK</p><a href="https://codepen.io/paulinafischer/full/xXKYyv/"target="_blank" style="text-decoration:none" id= "go" class="btn btn-danger" role="button">Go</a>
+    </div>
+        </div>
+   <div class="col-sm-2"><img src="http://res.cloudinary.com/dfqxzvppi/image/upload/c_scale,h_300,w_600/v1507414264/game%20of%20thrones%20calculator.jpg" alt="game of thrones calculator paulina fischer freecodecamp" width="100%" height="auto" class="gallery-img img-thumbnail" />
+    <div class="caption">
+          <p>GAME OF THRONES CALCULATOR</p><a href="https://codepen.io/paulinafischer/full/NveabG/"target="_blank" style="text-decoration:none" id= "go" class="btn btn-danger" role="button">Go</a>
+     </div>
+     </div>
+  <div class= "col-sm-2"></div>
+  </div>
+  <div class= "row text-center">
+  <div class= "col-sm-2"></div>
+  <div class= "col-sm-2">
+    <img src="http://res.cloudinary.com/dfqxzvppi/image/upload/c_scale,h_300,w_600/v1507414926/twitch-paulinafischer.jpg" alt="twitch-paulina fischer freecodecamp" width="100%" height="auto" class="gallery-img img-thumbnail" />
+    <div class="caption">
+          <p>TWITCH TV API</p><a href="https://codepen.io/paulinafischer/full/RgzbRX/"target="_blank" style="text-decoration:none" id= "go" class="btn btn-danger" role="button">Go</a>
+        </div>
+  </div>
+     <div class= "col-sm-2"><img src="http://res.cloudinary.com/dfqxzvppi/image/upload/c_scale,h_300,w_600/v1507420596/wikipedia%20freecodecamp.jpg" alt="wikipedia viewer paulina fischer freecodecamp" width="100%" height="auto" class="gallery-img img-thumbnail" />
+    <div class="caption">
+          <p>WIKIPEDIA VIEWER</p><a href="https://codepen.io/paulinafischer/full/eRbyaa/"target="_blank" style="text-decoration:none" id= "go" class="btn btn-danger" role="button">Go</a>
+        </div>
+    </div>
+     <div class= "col-sm-2"><img src="http://res.cloudinary.com/dfqxzvppi/image/upload/c_scale,h_300,w_600/v1507421478/weather%20api.jpg" alt="the weather paulina fischer freecodecamp" width="100%" height="auto" class="gallery-img img-thumbnail"/>
+<div class="caption">
+          <p>THE WEATHER</p><a href="https://codepen.io/paulinafischer/full/PjGZgO/"target="_blank" style="text-decoration:none" id= "go" class="btn btn-danger" role="button">Go</a>
+        </div>
+    </div>
+     <div class= "col-sm-2"><img src="http://res.cloudinary.com/dfqxzvppi/image/upload/c_scale,h_300,w_600/v1507494011/quotes%20paulina%20fischer.jpg" alt="random quote machine freecodecamp paulina fischer" width="100%" height="auto" class="gallery-img img-thumbnail" />
+    <div class="caption">
+          <p>RANDOM QUOTE MACHINE</p><a href="https://codepen.io/paulinafischer/full/rweWvw/"target="_blank" style="text-decoration:none" id= "go" class="btn btn-danger" role="button">Go</a>
+        </div></div>
+    <div class= "col-sm-2"></div>
+    </div>
+<div class= "row text-center">
+  <div class= "col-sm-2"></div>
+  <div class= "col-sm-2">	<img src="http://res.cloudinary.com/dfqxzvppi/image/upload/c_scale,h_300,w_600/v1507495787/bruce%20lee%20tribute.jpg" alt="bruce lee tribute page freecodecamp paulina fischer" width="100%" height="auto" class="gallery-img img-thumbnail" />
+    <div class="caption">
+          <p>BRUCE LEE TRIBUTE PAGE</p><a href="https://codepen.io/paulinafischer/full/MbErPr/"target="_blank" style="text-decoration:none" id= "go" class="btn btn-danger" role="button">Go</a>
+        </div>
+  </div>
+     <div class= "col-sm-2"><img src="http://sunnyhostin.com/website/common/img/all/600x300.gif" alt="" width="100%" height="auto" class="gallery-img img-thumbnail" />
+    <div class="caption">
+          <p>WORK</p><a href="#"target="_blank" style="text-decoration:none" id= "go" class="btn btn-danger" role="button">Go</a>
+        </div>
+    </div>
+     <div class= "col-sm-2"><img src="http://sunnyhostin.com/website/common/img/all/600x300.gif" alt="" width="100%" height="auto" class="gallery-img img-thumbnail" />
+    <div class="caption">
+          <p>WORK</p><a href="#"target="_blank" style="text-decoration:none" id= "go" class="btn btn-danger" role="button">Go</a>
+        </div>
+    </div>
+     <div class= "col-sm-2"><img src="http://sunnyhostin.com/website/common/img/all/600x300.gif" alt="" width="100%" height="auto" class="gallery-img img-thumbnail" />
+    <div class="caption">
+          <p>WORK</p><a href="#"target="_blank" style="text-decoration:none" id= "go" class="btn btn-danger" role="button">Go</a>
+        </div>
+    </div>
+  </div>
+    <div class= "col-sm-2"></div>
+  </div>
+
+      </section>
+<!--end-section-->
+ <section class="parallax">
+      <h3 class="Bg"></h3>
+      <div class="bgimg" style="background-image: url(http://res.cloudinary.com/dfqxzvppi/image/upload/v1509134801/img3_aqnrof.jpg">
+        <div class="shadow">
+        </div>
+      </div>
+    </section>
+    <!--end-section-->
+
+       <section id="sec1"class="front">
+      <h3 id="title4"class="Bg">Contact me</h3>
+    </section>
+        <!--end-section-->
+
+<section class="front"><h3>
+  <a href= "https://github.com/paulinafischer" target="_blank" id="github" class="btn btn-info btn-lg" role="button">
+    <i class="fa fa-github animated infinite bounce" aria-hidden="true"></i>
+    </a>
+     <a href="https://de.linkedin.com/in/paulinafischer" target="_blank"  target="_blank" id="linkedin" class="btn btn-info btn-sm" role="button">
+       <i class="fa fa-linkedin animated infinite jello" aria-hidden="true"></i>
+       </a>
+       </h3>
+  </section>
+       <!--end-section-->
+<div  class="panel-footer text-center">
+  <p>Created by <strong>Paulina Fischer</strong></p>
+  </div>
+<!--end-footer-->
+
+
+<div style="display:none;">Best Freecodecamp Portafolio, because it is Easy, Beautiful and Friendly</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/FitText.js/1.1/jquery.fittext.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>
