@@ -1,0 +1,313 @@
+.row{
+  margin:0px !important;
+}
+h1 {
+  text-align:center; margin-top:150px; font-size:80px;
+}
+.text-container{
+  opacity:none;
+}
+.myname{
+  font-family: 'Poiret One', cursive; position:relative;
+}
+.mylastname{
+  font-family: 'Playball', cursive; cursive;
+position:relative;
+}
+#myjob{
+  position:relative; margin-top:-20px;
+}
+.jumbotron, .panel-footer{
+  background:white;
+}
+html, body {
+  font-family: 'Dosis', sans-serif;
+  background:white;
+  overflow:auto;
+}
+
+nav{
+  padding:7px; 
+  margin:0px;
+}
+#brand{
+  color:whitesmoke;
+}
+.glyphicon-user, .glyphicon-briefcase, .glyphicon-envelope, .glyphicon-tasks{
+  color:#298B8B;
+}
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#op{
+  min-height:500px;
+padding-bottom:50px;
+}
+.jumbotron{
+  width:100%;
+  background-repeat:no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  }
+#sec1{
+  background-color:#D9F866;
+}
+#title2, #title4{
+background:#FFC89A;
+color:#FF8622;
+padding-bottom:35px;
+padding-top:35px;
+}
+#title3, #title1{
+padding-bottom:35px;
+padding-top:35px;
+}
+h3{
+  padding: 20px;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+carousel{
+  background-color:white;
+}
+#text-carousel{
+  font-size:25px;
+  width:100%;
+  height:400px;
+  padding-top:100px;
+  padding-bottom:130px;
+  text-align:center;
+  background-color:transparent;
+}
+.glyphicon-chevron-left,.glyphicon-chevron-right{
+  color:#CCFB21;
+}
+.Bg {
+  z-index: 1000;
+  font-size:65px;
+  background:#D9F866;
+  color:#90B700;
+  padding:0px;
+  margin:0px;
+}
+
+.parallax{
+  z-index: 10;
+  position:relative;
+  height:200px;
+  overflow: hidden;   
+}
+
+.front, .parallax {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  min-height:60px;
+}
+
+.bgimg {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#shadow{
+  background-color:#1DD7D7;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0.7;
+}
+.shadow {
+  background-color:#1DD7D7;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0.9;
+}
+
+#skills-container{
+  padding:30px 30px 30px 50px;
+}
+.skillbar{
+	position:relative;
+	display:block;
+	margin-bottom:15px;
+	width:100%;
+	background:#eee;
+	height:35px;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-webkit-transition:0.4s linear;
+	-moz-transition:0.4s linear;
+	-ms-transition:0.4s linear;
+	-o-transition:0.4s linear;
+	transition:0.4s linear;
+	-webkit-transition-property:width, background-color;
+	-moz-transition-property:width, background-color;
+	-ms-transition-property:width, background-color;
+	-o-transition-property:width, background-color;
+	transition-property:width, background-color;
+}
+
+.skillbar-title{
+	position:absolute;
+	top:0;
+	left:0;
+	font-weight:bold;
+	font-size:13px;
+	color:#fff;
+	background:#6adcfa;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:4px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-title span {
+	display:block;
+	background:rgba(0, 0, 0, 0.1);
+	padding:0 20px;
+	height:35px;
+	line-height:35px;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:3px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-bar{
+	height:35px;
+	width:0px;
+	background:#6adcfa;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+
+.skill-bar-percent {
+	position:absolute;
+	right:10px;
+	top:0;
+	font-size:11px;
+	height:35px;
+	line-height:35px;
+	color:#444;
+	color:rgba(0, 0, 0, 0.4);
+}
+
+.container{
+  padding:50px;
+}
+
+#gallery{
+font-size:12px;
+color:black;
+font-weight: bold;
+margin:50px 0px 50px 0px;
+}
+.caption{
+margin-bottom:30px;
+background:#E9FE9A;
+}
+.btn{
+  cursor:pointer;
+  background:#EF43D4;
+}
+
+#contact-panel-link,#explore-panel-link{
+  background-color:#97F9F9;
+  border:solid 3px;
+  margin-right:5px;
+  position:relative;
+  margin-top:50px;
+  -webkit-animation-name:farbe;
+-webkit-animation-duration:10s;
+-webkit-animation-timing-function:linear;
+-webkit-animation-delay:0s;
+-webkit-animation-iteration-count:infinite;
+-webkit-animation-direction:alternate;
+-webkit-animation-play-state:running;
+
+animation-name:farbe;
+animation-duration:10s;
+animation-timing-function:linear;
+animation-delay:0s;
+animation-iteration-count:infinite;
+animation-direction:alternate;
+animation-play-state:running;
+}
+
+@-webkit-keyframes farbe
+{
+0%   {border-color: #69F3F3; left:0px; top:0px;}
+25%  {border-color: #F66AE0; left:0px; top:0px;}
+50%  {border-color: #FFB06E; left:0px; top:0px;}
+75%  {border-color: #DFFE6D; left:0px; top:0px;}
+100% {border-color: #E9FE9A; left:0px; top:0px;}
+}
+
+@keyframes farbe
+{
+0%   {border-color: #69F3F3; left:0px; top:0px;}
+25%  {border-color: #F66AE0; left:0px; top:0px;}
+50%  {border-color: #FFB06E; left:0px; top:0px;}
+75%  {border-color: #DFFE6D; left:0px; top:0px;}
+100% {border-color: #E9FE9A; left:0px; top:0px;}
+}
+
+#github, #linkedin{
+  background:#E11EC2;
+  width:200px;
+  height:200px;
+  font-size:140px;
+  text-align:center;
+  margin:50px;
+  color:whitesmoke;
+  border:solid 5px;
+  border-radius:45px;
+  -webkit-animation-name:farbe;
+-webkit-animation-duration:10s;
+-webkit-animation-timing-function:linear;
+-webkit-animation-delay:0s;
+-webkit-animation-iteration-count:infinite;
+-webkit-animation-direction:alternate;
+-webkit-animation-play-state:running;
+
+animation-name:farbe;
+animation-duration:10s;
+animation-timing-function:linear;
+animation-delay:0s;
+animation-iteration-count:infinite;
+animation-direction:alternate;
+animation-play-state:running;
+}
+
+@-webkit-keyframes farbe
+{
+0%   {border-color: #69F3F3; left:0px; top:0px;}
+25%  {border-color: #F66AE0; left:0px; top:0px;}
+50%  {border-color: #FFB06E; left:0px; top:0px;}
+75%  {border-color: #DFFE6D; left:0px; top:0px;}
+100% {border-color: #E9FE9A; left:0px; top:0px;}
+}
+
+@keyframes farbe
+{
+0%   {border-color: #69F3F3; left:0px; top:0px;}
+25%  {border-color: #F66AE0; left:0px; top:0px;}
+50%  {border-color: #FFB06E; left:0px; top:0px;}
+75%  {border-color: #DFFE6D; left:0px; top:0px;}
+100% {border-color: #E9FE9A; left:0px; top:0px;}
+}
